@@ -1,0 +1,103 @@
+body {
+  font-family: Futura;
+  color: rgb(0, 0, 0);
+}
+
+.head {
+}
+
+.head-icon {
+  text-align: center;
+  background-image: linear-gradient(rgb(255, 253, 253));
+  padding: 2%;
+  left: 50%;
+}
+
+.head-text {
+  background-image: linear-gradient(
+    rgba(253, 215, 133, 0.993),
+    rgb(255, 255, 255)
+  );
+  color: rgb(71, 71, 71);
+  text-align: center;
+  padding: 6%;
+  padding-top: 6%;
+}
+
+.head-text2 {
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(253, 215, 133, 0.993)
+  );
+  color: rgb(71, 71, 71);
+  text-align: center;
+  padding: 6%;
+  padding-top: 6%;
+}
+
+#description {
+  text-align: center;
+  padding: 5%;
+  margin: 5%;
+  font-size: 120%;
+  border-style: dashed;
+  border-color: black;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+
+a:hover {
+  color: rgb(255, 191, 72);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  padding: 50px;
+  margin: 200px;
+  text-align: center;
+  filter: grayscale(95%);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.img:hover {
+  padding: 50px;
+  text-align: center;
+  filter: grayscale(0%);
+  box-shadow: rgba(0, 0, 0, 0.349) 0px 5px 15px 0px;
+  border-style: double;
+  border-color: rgb(206, 206, 206);
+}
+
+.img-title {
+  text-align: left;
+  font-size: 2.2rem;
+  padding: 2%;
+  margin: 0%;
+}
+
+.img-date {
+  color: rgb(146, 3, 3);
+  font-size: 100%;
+  text-align: left;
+  padding: 2%;
+}
+
+#moreabout {
+  padding: 0.35rem;
+  background-color: rgba(253, 215, 133, 0.329);
+}
